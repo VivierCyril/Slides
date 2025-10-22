@@ -1,6 +1,29 @@
-<!DOCTYPE html><html lang=fr><link rel=stylesheet href=Slides/Slides.44244ced.css><meta charset=UTF-8><meta name=viewport content="width=device-width, initial-scale=1.0"><link rel=stylesheet href=Slides/json.e146de84.css><script src=Slides/json.f5e8d4c0.js defer></script><script type=module src=Slides/Slides.52605485.js defer></script><title>HTML</title><style>code.html{background:#272822}span{text-decoration:underline red}</style><body>
-    <div class=reveal>
-        <div class=slides>
+<!DOCTYPE html>
+<html lang="fr">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/node_modules/reveal.js/plugin/highlight/monokai.css" />
+    <script src="/node_modules/reveal.js/plugin/highlight/highlight.js" defer></script>
+    <script type="module" src="/src/app.js" defer></script>
+    <title>HTML</title>
+
+    <style>
+        code.html {
+            background: #272822;
+        }
+        span {
+            text-decoration: underline red;
+            
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="reveal">
+        <div class="slides">
             <section>
                 <h1>HTML</h1>
                 <p>
@@ -9,25 +32,26 @@
                     <strong>M</strong>arkup
                     <strong>L</strong>angaguage
                 </p>
-                <p><a href=https://developer.mozilla.org/fr/docs/Web/HTML>Référenciel HTML : Version 5</a></p>
+                <p><a href="https://developer.mozilla.org/fr/docs/Web/HTML">Référenciel HTML : Version 5</a></p>
             </section>
             <section>
                 <h1>Les objectifs</h1>
                 <ul>
-                    <li class=fragment>Savoir structurer une page web</li>
-                    <li class=fragment>Connaître les principales balises HTML</li>
-                    <li class=fragment>Coder une page en HTML</li>
+                    <li class="fragment">Savoir structurer une page web</li>
+                    <li class="fragment">Connaître les principales balises HTML</li>
+                    <li class="fragment">Coder une page en HTML</li>
                 </ul>
             </section>
             <section>
                 <h2>La définition du HTML</h2>
                 <p>
-                    <img src=Slides/HtmlCssJs.b4c86355.png data-preview-image>
+                    <img src="img/HtmlCssJs.png" data-preview-image>
                 </p>
             </section>
             <section>
                 <h1>La structure d'un document</h1>
-                <pre>                    <code data-line-numbers>&lt;!DOCTYPE html&gt;
+                <pre>
+                    <code data-line-numbers>&lt;!DOCTYPE html&gt;
 &lt;html lang="fr"&gt;
 
 &lt;head&gt;
@@ -44,7 +68,8 @@
 
             <section>
                 <h2>La déclaration du type</h2>
-                <pre class=r-stack>                    <code data-line-numbers>&lt;!DOCTYPE html&gt;</code>
+                <pre class="r-stack">
+                    <code data-line-numbers>&lt;!DOCTYPE html&gt;</code>
                 </pre>
 
                 <p>La déclaration !DOCTYPE n'est pas une balise HTML</p>
@@ -54,26 +79,27 @@
             <section>
                 <h2>Anatomie d'un élément HTML</h2>
                 <p>
-                    <span class=fragment data-fragment-index=1>&lt;p</span> 
-                    <span class=fragment data-fragment-index=3>class=</span>
-                    <span class=fragment data-fragment-index=4>"classeCSS"</span>
-                    <span class=fragment data-fragment-index=1>&gt;</span> 
-                    <span class=fragment data-fragment-index=5>Jhon Doe</span>
-                    <span class=fragment data-fragment-index=6>&lt;/p&gt;</span>
+                    <span class="fragment" data-fragment-index="1">&lt;p</span> 
+                    <span class="fragment" data-fragment-index="3">class=</span>
+                    <span class="fragment" data-fragment-index="4">"classeCSS"</span>
+                    <span class="fragment" data-fragment-index="1">&gt;</span> 
+                    <span class="fragment" data-fragment-index="5">Jhon Doe</span>
+                    <span class="fragment" data-fragment-index="6">&lt;/p&gt;</span>
                 </p>
 
                 <ol>
-                    <li class=fragment data-fragment-index=1>La balise ouvrante </li>
-                    <li class=fragment data-fragment-index=2>Un attribut constitué</li>
+                    <li class="fragment " data-fragment-index="1">La balise ouvrante </li>
+                    <li class="fragment " data-fragment-index="2">Un attribut constitué</li>
                         <ol>
-                            <li class=fragment data-fragment-index=3>D'un nom</li>
-                            <li class=fragment data-fragment-index=4>D'une valeur</li>
+                            <li class="fragment " data-fragment-index="3">D'un nom</li>
+                            <li class="fragment " data-fragment-index="4">D'une valeur</li>
                         </ol>
-                    <li class=fragment data-fragment-index=5>Le contenu</li>
-                    <li class=fragment data-fragment-index=6>La balise fermante</li>
+                    <li class="fragment " data-fragment-index="5">Le contenu</li>
+                    <li class="fragment " data-fragment-index="6">La balise fermante</li>
                 </ol>
             </section>
         </div>
     </div>
+</body>
 
-
+</html>
