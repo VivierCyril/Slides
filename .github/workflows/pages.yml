@@ -36,7 +36,6 @@ jobs:
       - name: Build pages
         run: 
           npm run build
-          cp dist/* .
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
