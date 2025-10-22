@@ -34,8 +34,9 @@ jobs:
       - name: Install dependencies
         run: npm ci
       - name: Build pages
-        run: 
+        run: |
           npm run build
+          cp dist/* .
       - name: Deploy
         uses: peaceiris/actions-gh-pages@v3
         with:
