@@ -4,7 +4,7 @@
   "source": "index.html",
   "scripts": {
     "start": "parcel --open firefox index.html",
-    "build": "parcel build index.html --public-url ./",
+    "build": "parcel build index.html --public-url ./src",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
