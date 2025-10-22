@@ -112,8 +112,8 @@
             </section>
 
             
-             
-           <section data-auto-animate>
+            
+            <section data-auto-animate>
                 <p class=big> <span class=azur>/<span class=pink>^</span><span class=blue>\d</span>/</span></p>
 
                 <p class="big fragment"><span class=yellow>4</span> paragraphes</p>
@@ -124,15 +124,15 @@
                 <p class="big fragment"><span class=yellow>5</span>4450</p>
             </section>
             
-            <section data-auto-animate> 
+            <section data-auto-animate>
                 <p class=big> <span class=azur>/<span class=blue>\d</span><span class=pink>$</span>/</span></p>
 
-                <p class="big fragment">Numéro de rue  <span class=yellow>8</span></p>    
+                <p class="big fragment">Numéro de rue <span class=yellow>8</span></p>
             </section>
             <section data-auto-animate>
                 <p class=big> <span class=azur>/<span class=blue>\d</span><span class=pink>$</span>/</span></p>
 
-                <p class="big fragment">Code postal  7500<span class=yellow>1</span></p>
+                <p class="big fragment">Code postal 7500<span class=yellow>1</span></p>
             </section>
             
             <section data-auto-animate>
@@ -142,9 +142,10 @@
             </section>
             
             <section data-auto-animate>
-                <p class=big> <span class=azur>/[<span class=pink>^</span><span class=blue>"</span>]/</span></p>
+                <p class=big> <span class=azur>/[<span class=pink>^</span><span class=blue>\w</span>]/</span>
+                </p>
 
-                <p class=big><span class=yellow>J</span>'ai 26 ans</p>
+                <p class=big>J<span class=yellow>'</span>ai 26 ans</p>
             </section>
             
             <section data-auto-animate>
@@ -159,22 +160,23 @@
             </section>
 
             
-            <section data-auto-animate> 
+            <section data-auto-animate>
                 <p class=big> <span class=azur>/<span class=blue>\w+</span>/</span></p>
 
                 <p class="big fragment"><span class=yellow>jhon</span>@<span class=yellow>gmail</span>.<span class=yellow>com</span></p>
             </section>
-             
+            
             <section data-auto-animate>
                 <p class=big> <span class=azur>/<span class=blue>\d*</span>/</span></p>
 
-                <p class="big fragment">J'ai <span class=yellow>26</span> ans, <span class=yellow>3</span> mois et <span class=yellow>18</span> jours</p>
+                <p class="big fragment">J'ai <span class=yellow>26</span> ans, <span class=yellow>3</span> mois et
+                    <span class=yellow>18</span> jours</p>
             </section>
-             
+            
             <section data-auto-animate>
                 <p class=big> <span class=azur>/<span class=blue>https?</span>:/</span></p>
 
-                <p class="big fragment"><span class=yellow>http</span>://mon-site.com</p> 
+                <p class="big fragment"><span class=yellow>http</span>://mon-site.com</p>
             </section>
             <section data-auto-animate>
                 <p class=big> <span class=azur>/<span class=blue>https?</span>:/</span></p>
@@ -210,19 +212,19 @@
             <section data-auto-animate>
                 <p class=big> <span class=azur>/<span class=blue>hel{5}o</span>/</span></p>
 
-                <p class="big fragment">Je dis <span class=yellow>helllllo</span> au revoir</p>   
+                <p class="big fragment">Je dis <span class=yellow>helllllo</span> au revoir</p>
             </section>
             <section data-auto-animate>
                 <p class=big> <span class=azur>/<span class=blue>(pa){3}</span>/</span></p>
 
-                <p class="big fragment">Le bébé dit <span class=yellow>papapa</span></p>  
+                <p class="big fragment">Le bébé dit <span class=yellow>papapa</span></p>
             </section>
             <section data-auto-animate>
                 <p class=big> <span class=azur>/<span class=blue>^(\d{2})h(\d{2})min(\d{2})s$</span>/</span></p>
 
                 <p class="big fragment">Il est <span class=yellow>12h30min45s</span></p>
             </section>
-               
+            
             <section>
                 <h1>Les drapeaux</h1>
                 <p class=fragment>Modifient le comportement global de l'expression</p>
@@ -302,14 +304,15 @@
             <section data-auto-animate>
                 <h2>Combinaison de drapeaux</h2>
                 <p class=big> <span class=azur>/hello/<span class=green>/gi</span></span></p>
-                <p class="big fragment"><span class=yellow>Hello</span> world, <span class=yellow>HELLO</span> all!</p>
+                <p class="big fragment"><span class=yellow>Hello</span> world, <span class=yellow>HELLO</span> all!
+                </p>
                 <ul style="margin:0 auto;list-style:none">
                     <li class=fragment>g : trouve toutes les occurrences</li>
                     <li class=fragment>i : ignore la casse</li>
                 </ul>
             </section>
             
-            <section>   
+            <section>
                 <h2>Conclusion</h2>
                 <ul>
                     <li class=fragment>
@@ -324,7 +327,7 @@
                     </li>
                     <li class=fragment>
                         Des outils comme Regex101 facilitent la création et le débogage des expressions régulières
-                    </li>   
+                    </li>
                 </ul>
                 <aside class=notes>
                     - Récapitulatif (3 min)
