@@ -4,7 +4,10 @@ Dépôt contenant les présentations utilisé pour les cours
 
 ## Lancé le serveur 
 ### Utilisation de Make
-> make dev
-
+```shell
+make dev
+```
 ### Utilisation de NPM
-> npm run dev
+```shell
+npm run dev
+```
